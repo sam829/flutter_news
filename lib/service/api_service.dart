@@ -9,7 +9,7 @@ class ApiService {
   Future<List<Article>> getArticle(String category) async {
     final requestParams = {
       'country': 'in',
-      'apiKey': 'e0f3ccb8a4a34bc3ae28268363aaa458',
+      'apiKey': 'your_api_key',
       'pageSize': '100',
       'category': category
     };
